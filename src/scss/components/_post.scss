@@ -19,7 +19,7 @@
     }
 
     a:not([class]) {
-      color: var(--color-dark);
+      color: var(--color-theme-feature-text);
       position: relative;
       display: inline-block;
       background: var(--color-theme-highlight);
@@ -126,7 +126,7 @@
     h2 {
       flex-shrink: 0;
       margin-right: get-size('base');
-      color: var(--color-dark);
+      color: var(--color-theme-feature-text);
     }
 
     h2 a {
